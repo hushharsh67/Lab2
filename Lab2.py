@@ -17,7 +17,7 @@ def find_min_max(num_list):
 
 def sort_temperature(num_list):
     return sorted(num_list)
-
+# Returns the median of the list (sorted first)
 def calc_median_temperature(num_list):
     s = sorted(num_list)
     n = len(s)
